@@ -1,4 +1,4 @@
-def call(string whoAreYou) {
+def call(String whoAreYou) {
 
    echo "Now we are being called magically by ${whoAreYou}"
 
