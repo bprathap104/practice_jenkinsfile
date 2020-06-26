@@ -1,4 +1,7 @@
 node {
+  stage('Get sources') {
+       checkout scm
+  }
 
 def externMethod = load "${pwd()}/externalMethod.groovy"
 
