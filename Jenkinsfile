@@ -1,10 +1,10 @@
 node {
 
-def externMethod = load "${workspace}/externalMethod.groovy"
+def externMethod = load "${pwd()}/externalMethod.groovy"
 
 externMethod.lookAtThis('saran')
 externMethod.lookAtMe('prathap')
 
-def externCall = load "${workspace}/externalCall.groovy"
+def externCall = load "${pwd()}/externalCall.groovy"
 externCall('saravanan')
 }
