@@ -5,7 +5,7 @@ node {
 
 def externMethod = load "${pwd()}/externalMethod.groovy"
 
-externMethod.lookAtThis "saran"
+externMethod.lookAtThis("saran")
 //externMethod.lookAtMe "prathap"
 
 def externCall = load "${pwd()}/externalCall.groovy"
